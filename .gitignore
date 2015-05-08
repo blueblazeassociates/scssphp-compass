@@ -1,3 +1,17 @@
-composer.lock
-vendor
-/compass/
+##
+# The following settings control what folders/files are ignored (or not ignored) by Git.
+##
+
+# Exclude Eclipse IDE files.
+/.settings
+/.buildpath
+/.project
+
+# Exclude composer.phar and helper symlink for composer script.
+/composer
+/composer.phar
+
+# Exluded these files, too.
+/composer.lock
+/vendor
+/compass
